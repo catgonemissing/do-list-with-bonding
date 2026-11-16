@@ -1,8 +1,24 @@
 #Task system here...
-# task = []
-# task_id = 1
+task = []
+task_id = 1
 
-# def create_task():
+def create_task(task_list, id_now):
+    do_task = input("Input what do you want to do?").strip()
+
+    if not do_task:
+        print("Task cannot be empty...")
+        return id_now
+    
+    new_task = {
+        "id": id_now,
+        "task": do_task,
+        "done": False 
+    }
+
+    task_list.append(new_task)
+    print(f"task {id_now}: {do_task}")
+    return id_now + 1
+
 # def read_task():
 # def update_task():
 # def remove_task():

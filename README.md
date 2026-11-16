@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Do List with Bonding
 
 A simple system of 2 CRUDs side by side on each their own mission. A learning project for covering programming fundamentals through Python. Made by Muhammad Reifansyah Rozaq (An informatic student of Institut Teknologi Kalimantan).

@@ -10,4 +10,4 @@ A simple system of 2 CRUDs side by side on each their own mission. A learning pr
 
 # License
 
-[MIT License](license)
+[MIT License](license.txt)
